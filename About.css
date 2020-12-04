@@ -1,0 +1,48 @@
+body{
+	background: url('333.jpg') no-repeat;
+	background-size: cover;
+	font-family: TimesNewRoman;
+	font-size: 40px;
+	color: white;
+	max-width: 100%
+}
+.topnav{
+	background-color: gray;
+	opacity: .9;
+	overflow: hidden;
+}
+.topnav a{
+	float: left;
+	color: white;
+	text-align: center;
+	padding: 16px 18px;
+	text-decoration: none;
+	font-size: 17px;
+}
+.topnav a:hover{
+	background-color: darkblue;
+	color: white;
+}
+.topnav a.active{
+	background-color: darkblue;
+	color: white;
+}
+.M{
+	background-color: skyblue;
+}
+.roanne{
+	background-color: black;
+	opacity: 0.8;
+}
+.j{
+	background-color: black;
+	opacity: 0.8;
+}
+.d{
+	color: yellow;
+}
+@media screen and (max-width: 800px) {
+  .topnav {
+   width: 100%;
+}
+}
